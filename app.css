@@ -1,18 +1,46 @@
-button{
-    color: pink;
-    background-color: rgb(117, 21, 117);
+body{
+    background-image: url("GOGOL.jpeg");
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+}
+#g1 button{
+    color: rgb(255, 0, 43);
+    /*background-color: rgb(117, 21, 117);*/
     border-radius: 15px;
     border: 1px solid cyan;
     height: 100px;
     width: 100px;
+    background-image: url("GOGUL.jpeg");
+    background-size: contain;
 }
 
-button:hover{
+#g1 button:hover{
     color: bisque;
     background-color: pink;
 }
 
-button:active{
+#g1 button:active{
+    color: white;
+    background-color: red;
+}
+
+#g2 button{
+    color: rgb(255, 0, 43);
+    /*background-color: rgb(117, 21, 117);*/
+    border-radius: 15px;
+    border: 1px solid cyan;
+    height: 100px;
+    width: 100px;
+    background-image: url("PRONOV.jpeg");
+    background-size: contain;
+}
+
+#g2 button:hover{
+    color: bisque;
+    background-color: pink;
+}
+
+#g2 button:active{
     color: white;
     background-color: red;
 }
